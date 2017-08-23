@@ -8,12 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Shashwat</title>
         <meta name="description" content="">
-        <!--
-    	Volton Template
-    	http://www.templatemo.com/tm-441-volton
-        -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/font-awesome.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -21,10 +16,6 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
         <div class="responsive-header visible-xs visible-sm">
             <div class="container">
                 <div class="row">
@@ -43,10 +34,12 @@
                 <a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
                 <div class="main-navigation responsive-menu">
                     <ul class="navigation">
-                        <li><a href="#top"><i class="fa fa-home"></i>Home</a></li>
-                        <li><a href="#about"><i class="fa fa-user"></i>About Me</a></li>
-                        <li><a href="#projects"><i class="fa fa-newspaper-o"></i>My Gallery</a></li>
-                        <li><a href="#contact"><i class="fa fa-envelope"></i>Contact Me</a></li>
+                      <li><a href="#about"><i class="fa fa-pencil"></i>About Me</a></li>
+                      <li><a href="#interest"><i class="fa fa-flask"></i>Research Interest</a></li>
+                      <li><a href="#education"><i class="fa fa-graduation-cap"></i>Education</a></li>
+                      <li><a href="#experience"><i class="fa fa-institution"></i>work</a></li>
+                      <li><a href="#publication"><i class="fa fa-book"></i>Publications</a></li>
+                      <li><a href="#contact"><i class="fa fa-paper-plane-o"></i>Contact Me</a></li>
                     </ul>
                 </div>
             </div>
@@ -58,27 +51,26 @@
                 <div class="profile-image">
                     <img src="img/shashwat.jpg" alt="Volton">
                 </div>
-                <h3 class="profile-title">shashwat Kumar</h3>
-                <!--<p class="profile-description"></p>-->
+              <!--  <h3 class="profile-title">shashwat Kumar</h3>-->
             </div> <!-- top-section -->
             <div class="main-navigation">
                 <ul class="navigation">
                     <!--<li><a href="#"><i class="fa fa-globe"></i>Welcome</a></li>-->
                     <li><a href="#about"><i class="fa fa-pencil"></i>About Me</a></li>
+                    <!--<li><a href="#interest"><i class="fa fa-flask"></i>Research Interest</a></li>-->
                     <li><a href="#education"><i class="fa fa-graduation-cap"></i>Education</a></li>
                     <li><a href="#experience"><i class="fa fa-institution"></i>work</a></li>
                     <li><a href="#publication"><i class="fa fa-book"></i>Publications</a></li>
+                    <li><a href="./gallery.html"><i class="fa fa-camera"></i>Gallery</a></li>
+                    <li><a href="gallery.html">Generic</a></li>
                     <li><a href="#contact"><i class="fa fa-paper-plane-o"></i>Contact Me</a></li>
                 </ul>
             </div> <!-- .main-navigation -->
             <div class="social-icons">
                 <ul>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                    <li><a href="https://www.facebook.com/shashwatchoudary" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/shashwat-kumar-a3415720/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://plus.google.com/u/0/collections/yours" target="_blank"><i class="fa fa-google-plus"></i></a></li>
                 </ul>
             </div> <!-- .social-icons -->
         </div> <!-- .sidebar-menu -->
@@ -102,26 +94,38 @@
                     <div class="row">
                         <div class="col-md-12">
                           <span class="image object">
-                            <img src="img/profile.jpg" align="right" alt="Shashwat Kumar"/>
+                            <img class="side-image" src="img/profile1.jpg" align="right" alt="Shashwat Kumar"/>
                           </span>
                             <h4 class="widget-title">Shashwat Kumar</h4>
 
                             <!--<div class="about-image">
                                 <img src="img/8.jpg" alt="about me">
                             </div>-->
-                            <p class="paragraph1">Research Scholar<br>Computer Science and Engineering<br>Indian Institute of Engineering and Technology Hyderbad</p>
-			    <p>I am  a PhD student at IIT Hyderabad working under the guidence of Dr. Antony Franklin A. I am currently working on Mobile Edge Computing (MEC).</p>
+                            <p class="clgDetails">Research Scholar<br>Computer Science and Engineering<br>Indian Institute of Engineering and Technology Hyderabad</p>
+                            <p class="email">Email: cs15resch11011@iith.ac.in</p>
                             </div>
 
                     </div> <!-- #about -->
-
                     </section>
                     </div>
                     <hr>
+
+                    <div Class="page-section" id="about">
+                      <h3 class="heading">About Me:</h3>
+                      <p class="text">I am research scholar in Computer Science and Engineering department at IIT Hyderabad under the supervision of Dr. Antony Franklin A. I am working on Mobile Edge Computing(recently changed to Multi-access Edge Computing). MEC can be seen as a cloud server running at the edge of a mobile network and performing specific tasks that might not be possible with traditional network infrastructure, i.e., providing the real time network information. Mobile-edge Computing is characterized by on-premises, proximity to the users, lower latency, location awareness, and network context information. These characteristics enable MEC to be used for deployment of various applications and services, namely edge content delivery, data aggregation, content optimization, edge analytics, offloading, etc. Mobile Edge Computing servers can be deployed LTE macro base station (eNodeB),  3G Radio Network Controller (RNC) site, and Multi-Radio Access Technology (RAT) cell aggregation site.
+
+                      <br>My research interests lie in;
+                        <ul class="marginlist">
+                          <li>Mobile Edge Computing (MEC)</li>
+                          <li>Edge ComputinResearch Interestg</li>
+                          <li>Celluler Networks</li>
+                          <li>Cloud Computing</li>
+                        </ul>
+                      </P>
+                    </div>
                     <div Class="page-section" id="education">
-                      <div class="row">
+                      <h3 class="heading">Education:</h3>
                         <div class="table-wrapper">
-                            <h3 class="table-title">Education</h3>
                             <table>
                               <thead>
                                 <tr>
@@ -134,7 +138,7 @@
                                 <tr>
                                   <td>B.Tech.</td>
                                   <td>IEC College of Engineering and Technology, G.Noida</td>
-                                  <td>2007-20011</td>
+                                  <td>2007-2011</td>
                                 </tr>
                                 <tr>
                                   <td>M.Tech.</td>
@@ -153,28 +157,25 @@
                               </tfoot>
                             </table>
                           </div>
-                      </div>
                     </div>
 
                     <div Class="page-section" id="education">
-                      <div class="row">
-     								<div class="table-wrapper" id="experience">
-					            <h3 class="table-title">Work Experience</h3>
+                      <h3 class="heading">Work Experience:</h3>
+     								    <div class="table-wrapper" id="experience">
 	                      <table>
 					                <thead>
-                           <tr>
+                            <tr>
 						                       <th>Position</th>
        								 		         <th>Organisation</th>
 						                       <th>Year</th>
-                           </tr>
-       												</thead>
-       												<tr>
+                            </tr>
+       										 </thead>
+       										   <tr>
        													<td>Asst. Professor</td>
        													<td>Parul Institute of Engineering and Technology, Vadodara, Gujarat, India</td>
        													<td>2013-2015</td>
        												</tr>
-       												</table>
-       									</div>
+       										</table>
                       </div>
                     </div>
                     <hr>
@@ -184,7 +185,7 @@
                     <div class="page-section" id="contact">
                     <div class="row">
                         <div class="col-md-12">
-                            <h4 class="widget-title">Contact Me</h4>
+                            <h3 class="heading">Contact Me:</h3>
                         </div>
                     </div>
                     <div class="row">
@@ -211,12 +212,10 @@
 
                     <div class="row" id="footer">
                         <div class="col-md-12 text-center">
-                            <p class="copyright-text">Copyright &copy; 2015 Shashwat Kumar</p>
+                            <p class="copyright-text">Copyright &copy; 2017 Shashwat Kumar</p>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </div>
 

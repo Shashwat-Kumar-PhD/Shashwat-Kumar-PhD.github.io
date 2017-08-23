@@ -1,8 +1,7 @@
 (function($) {
 
-	"use strict";	
+	"use strict";
 
-  
     $('.navigation').singlePageNav({
         currentClass : 'active'
     });
@@ -14,11 +13,4 @@
     });
 
 
-
 })(jQuery);
-
-
-
-
-
-

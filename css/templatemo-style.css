@@ -177,10 +177,11 @@ textarea {
  2. Basic Style
 -------------------------------------------------------- */
 body {
-  font-size: 14px;
-  line-height: 24px;
-  color: #777777;
-  font-family: 'robotoregular';
+  color: #7f888f;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13pt;
+  font-weight: 400;
+  line-height: 1.65;
   overflow-x: hidden;
 }
 
@@ -252,12 +253,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-h4.widget-title {
-  font-size: 20px;
-  font-family: 'robotobold';
-/*  text-transform: uppercase;*/
-  margin-bottom: 20px;
-}
+
 
 hr {
   position: relative;
@@ -271,7 +267,7 @@ hr {
 }
 
 .page-section {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 /*---------------------------------------------------------
@@ -305,27 +301,50 @@ hr {
   -webkit-border-radius: 75px;
   border-radius: 75px;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
-.profile-image img {
+.profile-image img{
   width: 100%;
+}
+
+img.side-image {
+  width: auto;
+  height: 190px;
 }
 
 h3.profile-title {
   margin-bottom: 5px;
   font-size: 18px;
-  font-family: 'robotobold';
+  font-family: "Roboto Slab", serif;
   color: white;
 }
 
-h3.table-title{
-  margin-top: 10px;
-  font-size: 20px;
+h4.widget-title {
+  font-size: 32px;
+  font-family: "Roboto Slab", serif;
+/*  text-transform: uppercase;*/
+  margin-bottom: 4px;
+  color: #3d4449;
+}
 
+h3.widget-title {
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+/*  text-transform: uppercase;*/
+  margin-bottom: 4px;
+  color: #3d4449;
+}
+
+h3.heading{
+  color: #3d4449;
+  font-family: "Roboto Slab", serif;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-size: 24px;
 }
 
 .main-navigation {
-  margin: 30px 0;
+  margin: 0px 0;
 }
 .main-navigation li {
   display: block;
@@ -393,7 +412,7 @@ h3.table-title{
   }
   .responsive-header .profile-content {
     text-align: left;
-    margin-top: 30px;
+    margin-top: 10px;
     overflow: hidden;
   }
 }
@@ -568,12 +587,36 @@ h3.table-title{
 /*---------------------------------------------------------
 5. Paragraph
 ----------------------------------------------------------*/
-p.paragraph1 {
-    font-size: 18px;
+p.clgDetails {
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    font-family: "Times",serif;
   }
 
-p.paragraph2 {
-    font-size: 13px;
+p.email {
+    font-family: Courier;
+    font-size: 16px;
+    font-style: normal;
+    color: blue;
+  }
+
+  p.text{
+    color: #7f888f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+    line-height: 1.65;
+    text-align: justify;
+  }
+
+  .marginlist li{
+    font-family: "Arial";
+    font-size:18px;
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 24px;
+    margin-top: 12px;
   }
 /*---------------------------------------------------------
  5. Footer
