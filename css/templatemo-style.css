@@ -229,12 +229,12 @@ h1, h2, h3, h4, h5, h6 {
 .main-content,
 .banner-bg {
   float: right;
-  width: 77%;
+  width: 81%;
 }
 @media screen and (max-width: 1290px) {
   .main-content,
   .banner-bg {
-    width: 70%;
+    width: 75%;
   }
 }
 @media screen and (max-width: 992px) {
@@ -275,7 +275,7 @@ hr {
 -------------------------------------------------------- */
 .sidebar-menu {
   float: left;
-  width: 23%;
+  width: 19%;
   height: 100%;
   position: fixed;
   /*background-color: #5e6b6e;*/
@@ -589,6 +589,12 @@ h3.heading{
 ----------------------------------------------------------*/
 p.clgDetails {
     font-size: 20px;
+    font-weight: normal;
+    color: black;
+    font-family: "Times",serif;
+  }
+p.address {
+    font-size: 18px;
     font-weight: normal;
     color: black;
     font-family: "Times",serif;
