@@ -272,8 +272,8 @@ hr {
   height: 100%;
   position: fixed;
   /*background-color: #5e6b6e;*/
-  background-color: #141919;
-  color: white;
+  background-color: white;
+  color: black;
   overflow-y: hidden;
 }
 @media screen and (max-width: 1290px) {
@@ -345,21 +345,21 @@ h3.heading{
 .main-navigation li a {
   padding: 15px 40px;
   display: block;
-  color: white;
-  font-size: 14px;
+  color: black;
+  font-size: 19px;
 }
 .main-navigation li a i {
   margin-right: 15px;
   font-size: 24px;
 }
 .main-navigation li a:hover {
-  background: #5b6878;
+  background: #AED6F1;
 }
 .main-navigation li a.active {
-  background: #495461;
+  background: #D6EAF8;
 }
 .main-navigation li a.active:hover {
-  background: #495461;
+  background: #D6EAF8;
 }
 
 .social-icons {
