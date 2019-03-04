@@ -260,6 +260,7 @@ hr {
 
 .page-section {
   padding-top: 40px;
+  padding-left: 20px;
 }
 
 /*---------------------------------------------------------
@@ -268,7 +269,7 @@ hr {
 .sidebar-menu {
   float: left;
   margin-top: 1cm;
-  width: 19%;
+  width: 20%;
   height: 100%;
   position: fixed;
   /*background-color: #5e6b6e;*/
